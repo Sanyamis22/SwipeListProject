@@ -6,12 +6,10 @@ import { StatusBar } from "expo-status-bar";
 
 export default function App() {
   return (
-    <GestureHandlerRootView style={{ flex: 1 }}>
-      <View style={styles.container}>
-        <StatusBar style="auto" />
+    <GestureHandlerRootView>
+      <StatusBar style="auto" />
 
-        <Dashboard />
-      </View>
+      <Dashboard />
     </GestureHandlerRootView>
   );
 }
